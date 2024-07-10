@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="css/all.min.css">    
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+      <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" class="d-block "> <img src="image/logo@2x.png"> Navbar <p class="ps-5">tagline goes here</p></a>
+         
+          <button class="navbar-toggler  bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="home">
+       <div class="container position-relative pt-5 text-center m-auto ">
+        <input type="text" name="text" id="search-inpute" placeholder="find your location" class="w-100 rounded-pill border-0 ">
+        <button class="btn btn-primary rounded-pill ps-5 pe-5 pt-2 pb-2 position-absolute">Find</button>
+       </div>
+      </section>
+    
+      <section class="details-section bg-main position-relative">
+       <div class="container">
+        <div class="row g-0 flex-container">
+          <div class="col-md-4 ">
+            <div class="details-div details-div1 bg-third position-absolute">
+              <div class="p-2 d-flex justify-content-between bg-secandry">
+                <div class="name-day text-white">Monday</div>
+                <div class="date text-white"><span class="date-num">25</span>
+                  <span class="month">March</span></div>
+              </div>
+             <div class="bg-third  p-2">
+              <p class="city  light-gray">Cairo</p>
+              <div class="d-flex justify-content-between">
+                <p class="degree text-white fs-1">20oC </p>
+              <img src="image/113.png" class="todayImg">
+              </div>
+              <p class="weather-condation blue-color mt-4">Clear</p>
+             </div>
+              <div class="details p-3 d-flex justify-content-between bg-third">
+                <p class="humidity light-gray w-auto"><img src="image/icon-umberella@2x.png">28%</p>
+                <p class="wind  light-gray W-25"><img src="image/icon-wind@2x.png" class="wind-img">24.1km/h</p>
+                <p class="weather-trend light-gray W-25"><img src="image/icon-compass@2x.png">N</p>
+               </div>
+            </div>
+        </div>
+  
+  
+        <div class="col-md-4 ">
+          <div class="details-div details-div2  bg-secandry  text-center text-white position-absolute">
+            <div class="day-two p-2 text-center bg-main text-white">sunday</div>
+            <div><img src="image/113 (1).png" class="img-day-two  w-25"></div>
+            <p class="max-temp">31.3oC</p>
+            <p class="min-temp">19.7o</p>
+            <p class="weather-condation-two blue-color">Partly Cloudy</p>
+          </div>
+      </div>
+  
+  
+      <div class="col-md-4 ">
+        <div class="details-div  details-div3 bg-third  text-center text-white position-absolute">
+          <div class="day-three p-2 text-center bg-secandry text-white">sunday</div>
+          <div><img src="image/113.png" class="img-day-three w-25"></div>
+          <p class="max-day-three">31.3oC</p>
+          <p class="min-temp-three">19.7o</p>
+          <p class="weather-condation-three blue-color">sunny</p>
+        </div>
+    </div>
+       </div>
+
+      </section>
+     
+      <footer>
+      <div class="footer-flex d-flex container">
+        <div class="position-relative pt-2 w-75  ">
+          <input type="text" name="text" id="text" placeholder="Enter your email to subscribe" class="w-75 rounded-pill border-0 ">
+          <button class="btn btn-primary rounded-pill ps-5 pe-5 pt-2 pb-2 position-absolute">subscribe</button>
+         </div>
+         <div>
+        <i class="fa-brands fa-facebook-f p-2 border-1 rounded-circle"></i>
+        <i class="fa-brands fa-twitter  p-2 border-1 rounded-circle"></i>
+        <i class="fa-brands fa-google-plus-g  p-2 border-1 rounded-circle"></i>
+        <i class="fa-brands fa-pinterest  p-2 border-1 rounded-circle"></i>
+        </div>
+      </div>
+         <div class="container">
+          <p class="pt-3 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+         </div>
+      </footer>
+    </main>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>
